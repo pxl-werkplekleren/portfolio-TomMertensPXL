@@ -28,3 +28,22 @@
 
     }
 }
+.aimreflec{
+    width:100%;
+    p{
+        width:100%;
+        padding:0.25rem;
+    }
+}
+.kernkwad{
+
+    div{
+        border:2px solid black;
+        border-radius:15px;
+        div{
+            width:50%;
+            border:2px solid black;
+            border-radius:10px;
+        }
+    }
+}
