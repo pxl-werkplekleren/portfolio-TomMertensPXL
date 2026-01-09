@@ -3,8 +3,37 @@
        margin:0 ;*
     box-sizing: border-box;
 }
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    h1{
+        font-size:6rem;
+    }
+    h2{
+        font-size:5rem;
+    }
+}
 .intro{
     width:100%;
+    h1{
+        width:100%;
+        text-align:center;
+        border: 2px solid black;
+        border-radius:10px;
+        background-color:lightgray;
+        margin:0.25rem;
+
+    }
+    p{
+
+        text-align:center;
+        border:2px solid black;
+        height:4rem;
+        border-radius:10px;
+    }
+
 }
 .logboek{
     width:100%;
@@ -17,6 +46,9 @@
     h1{
         width:100%;
         text-align:center;
+        border:2px solid black;
+        border-radius: 10px;
+        background-color:lightgray;
     }
     section{
         width:30%;
@@ -28,22 +60,145 @@
 
     }
 }
+.ontwikkeling{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    h1{
+        width:100%;
+        text-align:center;
+        border:2px solid black;
+        border-radius:10px;
+        background-color:lightgray;
+
+    }
+    section{
+        width:100%;
+        border:2px solid black;
+        border-radius:10px;
+        padding:1rem;
+        h2{
+            width:100%;
+            text-align:center;
+            padding:0.5rem;
+        }
+    }
+    .rol{
+        width:100%;
+        padding:1rem;
+        h2{
+            text-align:left;
+            border:2px solid black;
+            border-radius:10px;
+
+        }
+    }
+}
+.opdrachten{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    h1{
+        width:100%;
+        text-align:center;
+        border:2px solid black;
+        border-radius:10px;
+        background-color:lightgray;
+        margin:0.25rem;
+    }
+    section{
+        width:100%;
+        border:2px solid black;
+        border-radius:10px;
+        padding:1rem;
+    }
+    h2{
+        width:100%;
+        border:2px solid black;
+        border-radius:10px;
+        padding:0.5rem;
+    }
+}
+.reflectie{
+    width:100%;
+    h1{
+        width:100%;
+        text-align:center;
+        border:2px solid black;
+        border-radius:10px;
+        background-color:lightgray;
+        margin:0.25rem;
+    }
+}
 .aimreflec{
     width:100%;
+    border:2px solid black;
+    border-radius:10px;
+    padding:1rem;
     p{
         width:100%;
         padding:0.25rem;
     }
+    h2{
+        width:100%;
+        border:2px solid black;
+        border-radius:10px;
+        padding:0.5rem;
+        text-align:center;
+    }
 }
 .kernkwad{
+    border:2px solid black;
+    border-radius:10px;
+    padding:1rem;
 
     div{
+        width:100%;
         border:2px solid black;
-        border-radius:15px;
+        border-radius:10px;
+        display:flex;
+        flex-wrap: wrap;
+        gap:0.5rem;
+        padding:1rem;
         div{
-            width:50%;
+            width:45%;
             border:2px solid black;
             border-radius:10px;
+
         }
+    }
+    h2{
+        width:100%;
+        text-align:center;
+        border:2px solid black;
+        border-radius:10px;
+        margin:0.25rem;
+
+    }
+}
+.x-factor{
+    width:100%;
+    border:2px solid black;
+    border-radius:10px;
+    padding:1rem;
+    h2{
+        width:100%;
+        text-align:center;
+        border:2px solid black;
+        border-radius:10px;
+        margin:0.25rem;
+
+    }
+    h5{
+        padding:0.5rem;
+        font-size:1.25rem;
+    }
+    h3{
+        width:100%;
+        border:2px solid black;
+        border-radius:10px;
+        padding:0.5rem;
     }
 }
